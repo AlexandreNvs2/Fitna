@@ -1,0 +1,162 @@
+.App {
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  color: white;
+}
+
+
+.home-container{
+  background-image: url(../public/images/img_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100vh;
+  min-height: 100vh;
+  padding: 1em 2em;
+}
+
+header{
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+}
+
+.header-list{
+  display: flex;
+  gap: 42px;
+  margin-left: 560px;
+  font-size: 16px;
+}
+
+.home-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 250px;
+  position: relative;
+}
+
+.home-main h1{
+  font-size: 96px;
+  z-index: 1;
+}
+
+.home-main span {
+  color: #EAE32A;
+}
+
+.rectangle{
+  background-color: white;
+  width: 241px;
+  height: 40px;
+  position: absolute;
+  top: 240px;
+  left: 580px;
+}
+
+.home-main_footer{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.home-main_footer a{
+  background-color: #EAE32A;
+  color: #000;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.home-main_footer span{
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  right: 10px;
+  bottom: -11px;
+}
+
+
+.header-log{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 40px;
+  gap: 32px;
+
+}
+
+.header-log a {
+  background-color: #EAE32A;
+  padding: 8px 16px;
+  color: black;
+  border-radius: 50px;
+}
+.workout-section{
+  padding: 6em 8em;
+  position: relative;
+  height: 100vh;
+  background-image: url(../public/images/Frame\ 12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.left h1{
+  font-size: 96px;
+  z-index: 1;
+}
+
+.left p{
+  font-size: 32px;
+  max-width: 661px;
+}
+
+.rectangle2{
+  background-color: #EAE32A;
+  width: 241px;
+  height: 40px;
+  position: absolute;
+  top: 180px;
+  left: 110px;
+
+}
+
+.separator{
+  position: absolute;
+  right: 850px;
+  top: 100px;
+  background-color: white;
+  width: 2px;
+  height: 450px;
+}
+
+.right{
+  position: absolute;
+  top: 450px;
+  right: 100px;
+
+}
+
+.right p{
+  font-size: 32px;
+  max-width: 661px;
+}
+
+.right .yellow{
+  color: #EAE32A;
+}
+
+.right .rectangle3{
+  width: 484px;
+  height: 18px;
+  background-color: #EAE32A;
+  position: absolute;
+  right: 180px;
+}
